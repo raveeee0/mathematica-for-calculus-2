@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     92580,       1593]
-NotebookOptionsPosition[     92235,       1579]
-NotebookOutlinePosition[     92624,       1595]
-CellTagsIndexPosition[     92581,       1592]
+NotebookDataLength[     92606,       1594]
+NotebookOptionsPosition[     92261,       1580]
+NotebookOutlinePosition[     92650,       1596]
+CellTagsIndexPosition[     92607,       1593]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,7 +33,7 @@ Cell[BoxData[{
         RowBox[{"y", "[", "t", "]"}]}], " ", "+", " ", 
        SuperscriptBox["t", "2"]}]}], ",", " ", 
      RowBox[{"y", "[", "t", "]"}], ",", " ", "t"}], "]"}]}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{"{", 
    RowBox[{"{", 
@@ -78,7 +78,7 @@ Cell[BoxData[{
     RowBox[{"{", 
      RowBox[{"t", ",", " ", 
       RowBox[{"-", "2.0"}], ",", " ", "3.0"}], "}"}]}], "]"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  GraphicsBox[{{{}, {}, 
     TagBox[
      {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], Opacity[
@@ -1574,7 +1574,8 @@ DR3l2saCpg3c/+9diYJC/qEs6Lm0yf/tOXxmam2NBV2y1Pu//wdZ0vqG
    3.87269038755506*^9}, {3.872690470589526*^9, 3.8726904764091053`*^9}, {
    3.87269056898635*^9, 3.87269060072466*^9}, {3.872690686176532*^9, 
    3.872690748464675*^9}, {3.872691146124482*^9, 3.8726911724956903`*^9}, 
-   3.872691274847662*^9},ExpressionUUID->"19313845-cb3a-4b38-b6de-\
+   3.872691274847662*^9, 
+   3.872835800517911*^9},ExpressionUUID->"19313845-cb3a-4b38-b6de-\
 a9cc8c105fce"]
 },
 WindowSize->{1386, 762},
@@ -1594,7 +1595,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 91673, 1557, 589, "Input",ExpressionUUID->"19313845-cb3a-4b38-b6de-a9cc8c105fce"]
+Cell[558, 20, 91699, 1558, 589, "Input",ExpressionUUID->"19313845-cb3a-4b38-b6de-a9cc8c105fce"]
 }
 ]
 *)
