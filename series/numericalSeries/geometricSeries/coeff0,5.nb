@@ -1,0 +1,242 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7925,        234]
+NotebookOptionsPosition[      6833,        208]
+NotebookOutlinePosition[      7234,        224]
+CellTagsIndexPosition[      7191,        221]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"A", "[", "n_", "]"}], "=", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    FractionBox["1", "2"], ")"}], "n"]}]], "Input",
+ CellChangeTimes->{{3.875011896303116*^9, 3.875011918433864*^9}, {
+  3.875013336081118*^9, 3.875013354643935*^9}},
+ CellLabel->"In[87]:=",ExpressionUUID->"84ae5538-0d72-4f9d-8e06-11e2ffec2dc9"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"B", "[", "k_", "]"}], "=", 
+   RowBox[{
+    UnderoverscriptBox["\[Sum]", 
+     RowBox[{"n", "=", "1"}], "k"], 
+    RowBox[{"A", "[", "n", "]"}]}]}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.8750119235081778`*^9, 3.875011971262501*^9}, 
+   3.875012251225418*^9},
+ CellLabel->"In[88]:=",ExpressionUUID->"31124136-f252-4672-88cb-8011f15efb78"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox["Plot",
+   FontFamily->"Ubuntu Mono",
+   FontWeight->"Bold"], 
+  StyleBox[" ",
+   FontFamily->"Ubuntu Mono",
+   FontWeight->"Bold"], 
+  StyleBox["of",
+   FontFamily->"Ubuntu Mono",
+   FontWeight->"Bold"], 
+  StyleBox[" ",
+   FontFamily->"Ubuntu Mono",
+   FontWeight->"Bold"], 
+  StyleBox["the",
+   FontFamily->"Ubuntu Mono",
+   FontWeight->"Bold"], 
+  StyleBox[" ",
+   FontFamily->"Ubuntu Mono",
+   FontWeight->"Bold"], 
+  RowBox[{
+   StyleBox["succession",
+    FontFamily->"Ubuntu Mono",
+    FontWeight->"Bold"], 
+   StyleBox[":",
+    FontFamily->"Ubuntu Mono",
+    FontWeight->"Bold"], 
+   StyleBox[" ",
+    FontFamily->"Ubuntu Mono",
+    FontWeight->"Bold"], "\n", 
+   RowBox[{"ListPlot", "[", 
+    RowBox[{
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"A", "[", "n", "]"}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", " ", "1", ",", " ", "10"}], "}"}]}], "]"}], ",", 
+     " ", 
+     RowBox[{"Prolog", "->", 
+      RowBox[{"AbsolutePointSize", "[", "5", "]"}]}]}], "]"}]}]}]], "Text", \
+"Input",
+ CellChangeTimes->{{3.87501198378747*^9, 3.87501203170228*^9}, {
+  3.875012088876074*^9, 3.875012158451436*^9}, {3.875012526752964*^9, 
+  3.875012529313024*^9}, {3.875013479997443*^9, 
+  3.875013485808566*^9}},ExpressionUUID->"dd7c80e3-da7c-4603-8766-\
+578ca4814b0e"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`], 
+    AbsoluteThickness[1.6], 
+    PointBox[{{1., 0.5}, {2., 0.25}, {3., 0.125}, {4., 0.0625}, {5., 
+     0.03125}, {6., 0.015625}, {7., 0.0078125}, {8., 0.00390625}, {9., 
+     0.001953125}, {10., 0.0009765625}}]}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImageSize->{489.75, Automatic},
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 10.}, {0, 0.5}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Prolog->AbsolutePointSize[5],
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.875013367584312*^9},
+ CellLabel->"Out[89]=",ExpressionUUID->"1519a341-22e2-4d7e-bd2b-a73c8f481e01"]
+}, Open  ]],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"Plot", " ", "of", " ", "the", "  ", "partial", " ", 
+   RowBox[{"sequences", ":", " "}]}],
+  FontFamily->"Ubuntu Mono",
+  FontWeight->"Bold"]], "Input",
+ CellChangeTimes->{{3.875012039758844*^9, 3.875012045278768*^9}, {
+  3.8750122219691887`*^9, 3.875012245135002*^9}, {3.87501231895383*^9, 
+  3.875012324857951*^9}},ExpressionUUID->"3e9d7019-13dd-4b5c-8b12-\
+52e15abbc4bf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"B", "[", "n", "]"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", " ", "1", ",", " ", "10"}], "}"}]}], "]"}], ",", " ", 
+   
+   RowBox[{"Prolog", "->", 
+    RowBox[{"AbsolutePointSize", "[", "5", "]"}]}]}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.875012039758844*^9, 3.875012045278768*^9}, {
+   3.8750122219691887`*^9, 3.87501224772747*^9}, 3.8750135261963882`*^9},
+ CellLabel->"In[91]:=",ExpressionUUID->"16fea97a-ab96-40f7-9ab4-37ddbb93e9da"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`], 
+    AbsoluteThickness[1.6], 
+    PointBox[{{1., 0.5}, {2., 0.75}, {3., 0.875}, {4., 0.9375}, {5., 
+     0.96875}, {6., 0.984375}, {7., 0.9921875}, {8., 0.99609375}, {9., 
+     0.998046875}, {10., 0.9990234375}}]}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0.47227647569444575`},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImageSize->{487.5, Automatic},
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 10.}, {0.47227647569444575`, 0.9990234375}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Prolog->AbsolutePointSize[5],
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.87501337467276*^9, 3.8750134004931087`*^9}, 
+   3.8750135261966867`*^9},
+ CellLabel->"Out[91]=",ExpressionUUID->"2c1d9573-45e2-4602-b58b-c9ee2befe09e"]
+}, Open  ]]
+},
+WindowSize->{1039.5, 564.},
+WindowMargins->{{Automatic, 112.5}, {Automatic, 107.25}},
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"79736c63-13a3-4d6f-a592-b315a28350a5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 343, 8, 44, "Input",ExpressionUUID->"84ae5538-0d72-4f9d-8e06-11e2ffec2dc9"],
+Cell[904, 30, 403, 10, 78, "Input",ExpressionUUID->"31124136-f252-4672-88cb-8011f15efb78"],
+Cell[CellGroupData[{
+Cell[1332, 44, 1329, 45, 53, "Text",ExpressionUUID->"dd7c80e3-da7c-4603-8766-578ca4814b0e"],
+Cell[2664, 91, 1467, 40, 323, "Output",ExpressionUUID->"1519a341-22e2-4d7e-bd2b-a73c8f481e01"]
+}, Open  ]],
+Cell[4146, 134, 410, 9, 30, "Input",ExpressionUUID->"3e9d7019-13dd-4b5c-8b12-52e15abbc4bf"],
+Cell[CellGroupData[{
+Cell[4581, 147, 612, 14, 33, "Input",ExpressionUUID->"16fea97a-ab96-40f7-9ab4-37ddbb93e9da",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[5196, 163, 1621, 42, 314, "Output",ExpressionUUID->"2c1d9573-45e2-4602-b58b-c9ee2befe09e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Open  ]]
+}
+]
+*)
+
